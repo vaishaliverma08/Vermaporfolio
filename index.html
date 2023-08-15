@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@100;300;400;500;600;700&family=Nunito+Sans&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200&family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li>
+          <a href="#"
+            ><img
+              src="./images/icons8-home-page-50.png"
+              class="icon"
+              alt="home"
+            />Home</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="./images/icons8-contact-50.png"
+              class="icon"
+              alt="contact"
+            />Contact</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="./images/icons8-project-50.png"
+              class="icon"
+              alt="projects"
+            />Projects</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="./images/icons8-portfolio-50.png"
+              class="icon"
+              alt="portfolio"
+            />Portfolio</a
+          >
+        </li>
+        <li>
+          <a href="#academic"
+            ><img
+              src="./images/icons8-school-50.png"
+              class="icon"
+              alt="Academic"
+            />Academic</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="intro-container">
+      <div class="intro">
+        <div class="image">
+          <img
+            src="./images/icons8-person-female (1).gif"
+            class="my-image"
+            alt=""
+          />
+        </div>
+        <h1>Vaishali Verma</h1>
+        <p>I am a <span id="dynamic-text"></span></p>
+        <div class="links">
+          <a href="#"><img src="./images/icons8-github-50 (1).png" alt="" /></a>
+          <a href="#"><img src="./images/icons8-linkedin-50.png" alt="" /></a>
+          <a href="#"><img src="./images/icons8-email-50.png" alt="" /></a>
+        </div>
+        <div class="btns">
+          <a
+            href="https://drive.google.com/file/d/1R1HbPRibMmMGmC2YCMbZxP1LvPnhpiVx/view?usp=sharing"
+            class="btn"
+            target="_blank"
+            >Download Resume</a
+          >
+          <a
+            href="https://www.linkedin.com/in/vaishali-verma-724735275/"
+            class="btn2"
+            target="_blank"
+            >Let's Connect</a
+          >
+        </div>
+      </div>
+    </div>
+    <section class="info">
+      <div class="academic-context cards" id="academic">
+        <h2>Education</h2>
+        <div class="card">
+          <div class="row-content">
+            <div class="bar">
+              <img src="./images/icons8-school-50.png" alt="" />
+              <div class="timeline"></div>
+            </div>
+            <div class="card-info">
+              <p class="duration">2019-2023</p>
+              <h4>B.Tech | Computer Engineering</h4>
+              <p>
+                Degree offered by Krishna Engineering College which is
+                affiliated with AKTU
+              </p>
+              <span>Marks: 80%</span>
+            </div>
+          </div>
+          <div class="row-content">
+            <div class="bar">
+              <img src="./images/icons8-school-50.png" alt="" />
+              <div class="timeline"></div>
+            </div>
+            <div class="card-info">
+              <p class="duration">2019-2023</p>
+              <h4>B.Tech | Computer Engineering</h4>
+              <p>
+                Degree offered by Krishna Engineering College which is
+                affiliated with AKTU
+              </p>
+              <span>Marks: 80%</span>
+            </div>
+          </div>
+          <div class="row-content">
+            <div class="bar">
+              <img src="./images/icons8-school-50.png" alt="" />
+              <div class="timeline"></div>
+            </div>
+            <div class="card-info">
+              <p class="duration">2019-2023</p>
+              <h4>B.Tech | Computer Engineering</h4>
+              <p>
+                Degree offered by Krishna Engineering College which is
+                affiliated with AKTU
+              </p>
+              <span>Marks: 80%</span>
+            </div>
+          </div>
+        </div>
+        
+         </div>
+      <!-- <div class="exp cards">Experience....</div>
+      <div class="projects cards">
+        Projects build a separate page for project demo...
+      </div>
+       -->
+    </section>
+    <section class="contacts info">
+      <div class="contact-form">
+          <h2 style="margin-bottom: 1rem;">Contact Form</h2>
+            <form action="">
+                <label for="name">Name:</label> 
+                <input type="text" id="name" placeholder="Enter your name">  <br>
+                <label for="email">Email:</label>
+                <input type="email" id="Email" placeholder="Enter your email "> <br>
+                <label for="contact">Contact:</label>
+                <input type="tel" placeholder="Enter your contact" id="contact">  <br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" ></textarea>
+                <input type="button" value="Submit" onclick="send()">
+            </form>
+        </div>
+    </section>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="index.js"></script>
+</body>
+<footer id="footer">
+  <div class="foot">Copyright &#169; Vaishali Verma</div>
+</footer>
+</html>
